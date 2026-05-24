@@ -1,0 +1,25 @@
+﻿.venv/
+venv/
+.env
+
+__pycache__/
+*.pyc
+*.log
+
+# Local trained model folder - too large for GitHub
+model/
+
+# Runtime files
+logs/*.jsonl
+reports/*.md
+
+# Keep empty folders
+!logs/.gitkeep
+!reports/.gitkeep
+
+# Local Amazon Reviews 2023 SQLite index
+data/amazon2023_product_index.db
+
+# HuggingFace / notebook cache
+.ipynb_checkpoints/
+.cache/
